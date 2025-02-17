@@ -297,5 +297,6 @@ git config --global --unset merge.tool
 
 > now each repo - will push to a specific github account
 > but what will the git blame be (username and email)
-
-- for that i have to set it locally for that repo alone (like without the `--global flag`)
+> for that i have to set it locally for that repo alone (like without the `--global flag`)
+- git config --global user.name "xxxx"
+- git config --global user.email "yyyy@jjj.ccc"
